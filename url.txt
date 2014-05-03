@@ -1,0 +1,15 @@
+
+
+            	companyName  - n
+            	companySummary - n4
+            	tickerSymbol -
+            	currentPrice - l1
+	openingPrice - o
+            	closingPrice - p
+            	totalMarketShare - j3
+            	earningsPerShare - e7
+            	dayLow - g
+            	dayHigh - h
+            	52weekLow - j
+            	52weekHigh -k
+http://download.finance.yahoo.com/d/quotes.csv?s=AAPL&f=nn4sl1opj3e7ghjk&e=.csv
