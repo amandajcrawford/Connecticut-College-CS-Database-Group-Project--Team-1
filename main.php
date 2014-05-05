@@ -1,4 +1,4 @@
-﻿	<!DOCTYPE html>
+	<!DOCTYPE html>
 <html>
 
 <head></head>
@@ -62,18 +62,6 @@
     <div class="row">
       <div class="col-sm-4 col-md-3 sidebar">
         <div class="container-fluid">
-
-          <div class="row" id="constraints">
-            <h3 class="divider">
-              <a href="">Limit By</a>
-            </h3>
-            <div class="btn-group" id="limit_btn_group">
-              <button type="button" class="btn btn-default" id="limit_bought">Bought</button>
-              <button type="button" class="btn btn-default" id="limit_sold">Sold</button>
-              <button type="button" class="btn btn-default" id="limit_dividend">Dividend</button>
-              <button type="button" class="btn btn-default" id="limit_nodividend">No Dividend</button>
-            </div>
-          </div>
           <div class="row" id="sort">
             <h3 class="divider">
               <a href="">Sort By</a>
@@ -92,11 +80,11 @@
             </h3>
             <div class="panel panel-default">
               <div class="table-responsive">
-                <table class="table-striped">
+                <table class="table-striped" >
                   <thead>
                     <tr>
-                      <th>Ticker Symbol</th>
-                      <th>Stock Price</th>
+                      <th style="padding:0 15px 0 15px">Ticker Symbol</th>                     
+                      <th style="padding:0 15px 0 15px">Stock Price</th>
                     </tr>
                   </thead>
                   <tbody id="select">
