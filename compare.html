@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
 <head></head>
@@ -326,25 +326,20 @@
   <!-- Placed at the end of the document so the pages load faster -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="bootstrap-3.1.1-dist/js/bootstrap.min.js"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
-
 </html>
+<script type="text/javascript" charset="utf-8">
+
+    $(document).ready(function () { // start here, if DOM is loaded
+
+        // request data from php script ...
+        // we expect the userCheck.php script to actually 'return' something,
+        // some data ...
+        $.get("loadCompareTable.php", function (data) {
+            $("#stock_table_body").html(function (i, origText) {
+                return data;
+            })
+        });
+
+    });
+</script>

@@ -4,7 +4,7 @@
     if (!$db_conn)
         die("Unable to connect: " . mysqli_error());  // die is similar to exit
    
-    $cmd = "SELECT * FROM Stocks";            
+    $cmd = "SELECT * FROM Compare";            
     $retval = mysqli_query($db_conn , $cmd);
     $table = "";
     while($row = mysqli_fetch_array($retval)){
